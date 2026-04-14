@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes: Pomodoro Timer Brainstorm</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+  </head>
+  <body>
+    <header>
+      <h1>Meeting Minutes</h1>
+      <nav>
+        <a href="#info">Meeting Info</a> |
+        <a href="#agenda">Agenda</a> |
+        <a href="#business">Business</a> |
+        <a href="#media">Media</a> |
+        <a href="#feedback">Feedback Form</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      <section id="info">
+        <h2>Topic: Pomodoro Timer First Brainstorm</h2>
+        <h3>Date: April 14, 2026</h3>
+        
+        <section>
+          <h4>Attendance List</h4>
+          <ul>
+            <li><b>Prakhar</b> - PM</li>
+            <li><i>Nicole</i> - UI/UX</li>
+            <li><strong>Evan</strong> - Frontend</li>
+            <li><em>Bethany</em> - Backend</li>
+          </ul>
+        </section>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Introduce ourselves</li>
+          <li>brainstorm ideas</li>
+          <li>choose tech stack</li>
+          <li>timeline and splitting up work</li>
+          <li>Budget</li>
+        </ol>
+      </section>
+
+      <section id="business">
+        <h2>Business</h2>
+        
+        <section>
+          <h4>Unfinished Business</h4>
+          <p>
+            The team still needs to <strong>confirm the tech stack and the database</strong>. 
+          </p>
+        </section>
+
+        <section>
+          <h4>New Business</h4>
+          <p>
+            We are introducing a <b>new task management module</b>. 
+            <span>This will allow users to categorize their pomodoro sessions.</span>
+          </p>
+        </section>
+
+        <section>
+          <h4>Miscellaneous Q&A</h4>
+          <details>
+            <summary>Click to view open questions</summary>
+            <div>
+              <p>Q: How to keep users hooked to using our app?</p>
+              <p>A: <span>Evan suggested gamifying the experience</span></p>
+            </div>
+          </details>
+        </section>
+      </section>
+
+      <hr>
+
+      <section id="media">
+        <h2>Meeting Media</h2>
+        
+        <section>
+          <h4>Architecture Whiteboard</h4>
+          <img src="diagram.png" alt="Hand-drawn architecture diagram on a whiteboard" width="600">
+        </section>
+
+        <section>
+          <h4>Audio Recording</h4>
+          <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </section>
+
+        <section>
+          <h4>Video Recording</h4>
+          <video width="640" height="360" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+          </video>
+        </section>
+      </section>
+
+      <hr>
+
+      <section id="feedback">
+        <h2>Formula 1 Fan Survey (Required Form)</h2>
+        <form>
+          <fieldset>
+            <legend>Predict the Next Grand Prix</legend>
+            
+            <p>
+              <label for="driver-search">Search for a Driver:</label>
+              <input list="drivers" id="driver-search" name="driver-search">
+              <datalist id="drivers">
+                <option value="Lewis Hamilton">
+                <option value="Max Verstappen">
+                <option value="Charles Leclerc">
+                <option value="Lando Norris">
+                <option value="Fernando Alonso">
+              </datalist>
+            </p>
+
+            <p>
+              <label for="race-winner">Who do you think will win?</label>
+              <input type="text" id="race-winner" name="race-winner" placeholder="Enter driver name">
+            </p>
+
+            <p>
+              Favorite Teams:<br>
+              <input type="checkbox" id="mercedes" name="team" value="mercedes">
+              <label for="mercedes">Mercedes</label><br>
+              <input type="checkbox" id="redbull" name="team" value="redbull">
+              <label for="redbull">Red Bull</label><br>
+              <input type="checkbox" id="ferrari" name="team" value="ferrari">
+              <label for="ferrari">Ferrari</label>
+            </p>
+
+            <p>
+              Who is the GOAT?<br>
+              <input type="radio" id="hamilton" name="goat" value="hamilton">
+              <label for="hamilton">Hamilton</label><br>
+              <input type="radio" id="schumacher" name="goat" value="schumacher">
+              <label for="schumacher">Schumacher</label><br>
+              <input type="radio" id="senna" name="goat" value="senna">
+              <label for="senna">Senna</label>
+            </p>
+
+            <p>
+              <label for="race-date">Next Race Date:</label>
+              <input type="date" id="race-date" name="race-date">
+            </p>
+
+            <p>
+              <label for="track-select">Select a Track:</label>
+              <select id="track-select" name="track">
+                <option value="monaco">Monaco</option>
+                <option value="silverstone">Silverstone</option>
+                <option value="spa">Spa-Francorchamps</option>
+                <option value="monza">Monza</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="comments">Any other comments?</label><br>
+              <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            </p>
+
+            <button type="submit">Submit Prediction</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>&copy; 2026 Pomodoro Team. All rights reserved. <span>Contact us at info@pomodorotimer.example</span></p>
+    </footer>
+  </body>
+</html>
